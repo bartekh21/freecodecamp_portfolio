@@ -129,6 +129,7 @@ header {
   font-size: 26px;
   border-width:2px;
   background-color: #fafafa;
+  resize: none;
 }
 
 #contact .input:focus,
