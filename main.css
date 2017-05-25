@@ -44,13 +44,28 @@ header {
   margin: 0;
 }
 
-.nav-button {
+#navbar-top .nav-button {
   list-style: none;
   display: inline;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-.btn {
+#navbar-top .button {
   outline: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  color: #FFF !important;
+  width: 115px !important;
+  height: 45px !important;
+}
+
+#navbar-top .btn:hover {
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+#portfolio-button:focus {
+  background-color: black;
 }
 
 /* About me section */
@@ -130,6 +145,7 @@ header {
 
 #about-this-page {
   background-color: #D3D3D3;
+  color: #FFF;
 }
 
 #about-this-page {
@@ -149,6 +165,10 @@ header {
   margin: 0;
 }
 
+#about-this-page .left-column-text h4 {
+  padding-left: 20px;
+}
+
 #about-this-page .left-column {
   text-align: left;
   padding-left: 5%;
@@ -157,6 +177,34 @@ header {
 #about-this-page .right-column {
   text-align: right;
   padding-right: 5%;
+}
+
+#about-this-page .social-media {
+  list-style: none;
+}
+
+#about-this-page .social-media li {
+  display: inline !important;
+  padding-left: 65px;
+}
+
+#about-this-page .social-media .icon {
+  display: inline !important;
+  width: 50px;
+  height: 50px;
+  font-size: 22px;
+  color: #FFF;
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+
+#about-this-page .social-media a {
+  text-decoration: none;
+}
+
+#about-this-page .social-media a:hover .icon {
+  color: #851C28;
 }
 
 /* Bottom bar section */
